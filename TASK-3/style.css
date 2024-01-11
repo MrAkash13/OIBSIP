@@ -1,0 +1,84 @@
+ body {
+    background-color: rgb(63, 59, 59);
+}
+
+.box {
+    background-color: rgb(190, 67, 194);
+    height: 284px;
+    width: 534px;
+    border-radius: 10px;
+    box-shadow: 0 0 3em rgb(190, 67, 194);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(68, 26, 67);
+    text-align: center;
+    border-bottom:2px solid white ;
+    border-radius:10px ;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#number {
+    width: 227px;
+    height: 29px;
+    border-radius: 7px;
+    border: none;
+    margin: 5px;
+}
+
+#unit {
+    width: 100px;
+    height: 31px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+#output {
+    color: black;
+    display: flex;
+    align-items: center;
+    width: 331px;
+    height: 72px;
+    border-radius: 7px;
+    background-color: white;
+    margin: 18px 16px 12px 75px;
+    padding: 0 0 0 5px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button {
+    color: white;
+    background-color: rgb(97, 12, 159);
+    border: none;
+    border-radius: 11px;
+    width: 145px;
+    height: 36px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(52, 149, 240);
+}
+
+button:active {
+    color: rgb(36, 133, 245);
+    background-color: white;
+    transition-duration: 0.3s;
+}
