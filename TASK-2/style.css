@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h2 {
+    background-color: rgb(140, 23, 180);
+    color: white;
+    margin: 20px;
+    width: 185px;
+    height: 38px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* HEADER SECTION */
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    width: 100%;
+    background-color: rgb(219, 201, 230);
+}
+
+.logo {
+    margin: 2px 20px 2px 20px
+}
+
+.logo img {
+    margin: 0 0 0 126px;
+    height: 75px;
+    width: 155px;
+}
+
+.head ul {
+    display: flex;
+    margin: 0 20px 0 0;
+}
+
+.head ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.head a {
+    text-decoration: none;
+    color: rgb(140, 23, 187);
+    text-align: left;
+    margin: 8px;
+    font-weight: bolder;
+    margin: 0 0 0 40px;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN CONATAINER */
+.container {
+    min-height: calc(100vh - 75px - 110px);
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+/* ABOUT ME SECTION */
+.box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px 5px 20px;
+}
+
+#gotop {
+    background-color: #a14cda;
+    border-radius: 50%;
+    width: 40px;
+}
+
+.myself {
+    width: 70%;
+    margin: 30px 30px 30px 20px;
+}
+
+.myself h3 {
+    color: rgb(140, 23, 187);
+    font-size: 30px;
+    margin: 0 0 20px 0;
+}
+
+.myself p {
+    font-size: 19px;
+    color: rgb(71, 15, 94);
+    margin: 0;
+}
+
+.myself ul {
+    margin: 10px;
+    display: flex;
+}
+
+.myself ul li {
+    list-style: none;
+}
+
+.myself a {
+    margin: 20px 30px 10px 0;
+    display: flex;
+    text-decoration: none;
+    color: #6f04b6;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+
+#img1:hover {
+    box-shadow: 0 0 2em rgb(0, 0, 0);
+}
+
+#img2:hover {
+    box-shadow: 0 0 2em rgb(0, 140, 255);
+}
+
+#img3:hover {
+    box-shadow: 0 0 2em rgb(255, 0, 128);
+}
+
+#mycv {
+    width: 128px;
+    height: 22px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(161, 31, 161);
+    padding: 6px;
+}
+
+.image {
+    width: 212px;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    height: 291px;
+    /* width: 238px; */
+    border: 10px double #9c49d3;
+    border-radius: 45%;
+}
+
+
+/* SKILL SECTION */
+.myskill {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p {
+    margin: 0 0 20px 20px;
+    color: rgb(71, 15, 94);
+}
+
+.skill {
+    height: 150px;
+    width: 280px;
+    margin: 10px 0 20px 0;
+    padding: 20px 0 0 42px;
+    font-size: 18px;
+}
+
+.skill p {
+    color: rgb(111, 9, 151);
+    font-weight: bold;
+}
+
+.skill li {
+    color: #512170;
+}
+
+/* Achivement Section  */
+.achivement {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.my_achive {
+    margin: 20px;
+    height: 345px;
+    width: 374px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px 0 0 40px;
+    box-shadow: 5px 5px 5px rgb(27, 27, 27);
+}
+
+.my_achive p {
+    margin-top: 10px;
+}
+
+/* PROJECT SECTION */
+.project {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 20px 20px 20px;
+}
+
+.report {
+    height: 377px;
+    width: 300px;
+    padding: 20px 0 0 30px;
+}
+
+.report p {
+    font-weight: bold;
+    font-size: 18px;
+}
+.report a{
+    color:#7b24b6;
+    text-decoration:none;
+}
+
+.aboutproject {
+    height: 378px;
+    width: 606px;
+}
+
+.aboutproject ul li {
+    color: rgb(71, 15, 94);
+}
+
+.aboutproject a {
+    color: white;
+    background-color: #a14cda;
+    text-decoration: none;
+    margin: 10px 0 0 94px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* REACH ME OUT OR CONTACT ME SECTION */
+
+/* THIS SECTION ALOSO CONTAINS THE DIV "myself" WHICH IS AOLS PRESENT IN THE "ABOUT ME" SECTION */
+.contact p {
+    margin: 0 0 15px 20px;
+    font-size: 18px;
+}
+
+.contact .myself {
+    margin: 0 10px 5px 20px;
+}
+
+.contact .myself ul {
+    margin: 0 10px 0 10px;
+}
+
+/* FOOTER SECTION */
+.foot {
+    height: 110px;
+    /* width: 100%; */
+    background-color: #6f04b6;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 7px;
+}
+
+.foot p {
+    color: white;
+}
+
+.foot img {
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+}
